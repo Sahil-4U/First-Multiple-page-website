@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight:200px;
+}
+.first{
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/mapgisnaycx3hikhadx4');
+    width: 100vw;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.headings{
+    color: white;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 500px;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background:white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+.food-1{
+    background-image: url('https://image.shutterstock.com/image-photo/close-homemade-cheese-burger-grilled-260nw-572283919.jpg');
+}
+.food-2{
+    background-image: url('https://image.shutterstock.com/image-photo/beef-berger-cheese-french-fries-260nw-2009572040.jpg');
+}
+.food-3{
+    background-image: url('https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+}
+.card p{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+    text-align: center;
+}
+.card a{
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 60px;
+    border-radius: 15px;
+}
+.card:hover{
+    background:gold;
+}
+.button{
+    background: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.button:hover{
+    cursor: pointer;
+}

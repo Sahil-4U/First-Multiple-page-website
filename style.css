@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: blue;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image_responsive{
+    max-width: 100%;
+}
+.hero_image{
+   background-image: url(https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.hero_wrapper{
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero_wrapper h1{
+    font-size: 25px;
+    text-align: center;
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+.form_code button{
+     color: aliceblue;
+     background: royalblue;
+     border-radius: 15px;
+     border: none;
+     outline: black;
+     padding: 15px;
+     margin-left: 38%;
+     margin-top: 10px;
+     width: 25%;
+}
+.headi{
+    text-align: center;
+    color: white;
+}
+.imo{
+    background-image: url(https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* product section */
+.product{
+    width: 80%;
+     margin-left: auto;
+     margin-right:auto;
+     padding-top: 80px;
+}
+
+.product_list{
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+}
+.product_heading{
+    text-align: center;
+}
+.product_heading:hover{
+   color:gold;
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.product_list p{
+    color: white;
+    font-weight: 600px;
+}
+.product_list:hover{
+    width: 33%;
+}
+.last{
+    width: 100%;
+    height:200px;
+    display: flex;
+}
+.about{
+    min-width: 50%;
+    min-height: 100%;
+    background:brown;
+    text-align: center;
+}
+.Contact{
+    min-width: 50%;
+    min-height: 100%;
+    background: silver;
+    text-align: center;
+}
+@media screen and (max-width:700px){
+    .product_list{
+        width: 100%;
+        float: none;
+    }
+}
